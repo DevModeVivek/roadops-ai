@@ -1,0 +1,82 @@
+
+ROADOPS AI - MAINTENANCE KNOWLEDGE BASE
+Educational demonstration using fictional operations data.
+
+1. CREATING A WORK ORDER
+
+Employees can create maintenance requests using the RoadOps
+Power Apps application.
+
+To create a request:
+- Open the RoadOps Power App.
+- Select the option to create a new record.
+- Enter the maintenance request title.
+- Select the equipment or asset type.
+- Enter the issue details.
+- Select the maintenance site.
+- Choose a priority level.
+- Select a status if required.
+- Submit the form.
+
+The record is stored in the SharePoint list
+named RoadOpsWorkOrders.
+
+2. PRIORITY LEVELS
+
+RoadOps uses four priority categories:
+- Low
+- Medium
+- High
+- Critical
+
+The current Power Automate workflow sends an email notification
+when a newly created work order has priority High.
+
+Critical-priority alerts have not yet been configured.
+
+3. WORK ORDER STATUS
+
+The demonstration dataset uses:
+- New
+- Open
+- In Progress
+- On Hold
+- Resolved
+
+Work-order statuses are stored in SharePoint and displayed
+in the Power BI dashboard.
+
+4. DASHBOARD
+
+The RoadOps Power BI dashboard shows:
+- Total maintenance work orders
+- Estimated maintenance costs
+- Work orders by priority
+- Work orders by status
+- Work orders by maintenance site
+- Detailed maintenance records
+
+The semantic model must be refreshed to retrieve new
+SharePoint records.
+
+5. AI ASSISTANT LIMITATIONS
+
+The RoadOps AI Assistant currently provides informational
+assistance using a locally running language model.
+
+It does not yet have live access to SharePoint work orders.
+
+It cannot submit, update, approve or close work orders.
+
+The assistant must not invent work-order statuses, maintenance
+policies or completed actions.
+
+6. SAFETY
+
+For immediate safety hazards, employees should stop unsafe
+work and contact their supervisor.
+
+Follow established workplace safety and emergency procedures.
+
+This documentation is fictional and is not an official
+policy of The Miller Group.

@@ -1,0 +1,42 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+*token*.json
+
+# Local SharePoint exports and other datasets
+data/*
+!data/.gitkeep
+*.iqy
+
+# Backups and temporary files
+app_backup.py
+*_backup.py
+*.log
+*.tmp
+
+# Local model files
+*.gguf
+*.safetensors
